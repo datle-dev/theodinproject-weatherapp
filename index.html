@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App</title>
+  
+</head>
+<body>
+  <header></header>
+  <main>
+    <h1>Weather App</h1>
+    <form>
+      <input type="search" name="search" id="search" placeholder="City or ZIP">
+      <input type="submit" value="Search" minlength="1">
+    </form>
+    <section>
+      <h1>Location</h1>
+      <div id="location">
+      </div>
+    </section>
+    <section>
+      <h1>Current Conditions</h1>
+      <div id="current">
+      </div>
+    </section>
+    <section>
+      <h1>3-Day Forecast</h1>
+      <div id="three-day">
+      </div>
+    </section>
+    <section>
+      <h1>Hourly Forecast</h1>
+      <div id="hourly">
+      </div>
+    </section>
+    <div>
+      <canvas id="myChart"></canvas>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

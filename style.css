@@ -1,0 +1,19 @@
+#location {
+    border: 1px solid red;
+}
+
+#current {
+    border: 1px solid blue;
+}
+
+#three-day {
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#hourly {
+    border: 1px solid purple;
+}
+
